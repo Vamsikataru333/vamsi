@@ -1,0 +1,11 @@
+.year {
+    color: rgb(248, 32, 158);
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.special {
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(243, 41, 179);
+}
