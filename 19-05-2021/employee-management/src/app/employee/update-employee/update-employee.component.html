@@ -1,0 +1,40 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+        <form [formGroup]="updateForm" (ngSubmit)="onSubmit()">
+           <div class="form-group">
+               <label for="id">Employee Id</label>
+               <input type="text" id="id" class="form-control"
+               formControlName="id">
+               <span class="errors" *ngIf="!updateForm.get('id').valid && 
+               updateForm.get('id').touched">Enter valid Id</span>
+           </div> 
+           <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control"
+            formControlName="name">
+            <span class="errors" *ngIf="!updateForm.get('name').valid && 
+               updateForm.get('name').touched">Enter valid name</span>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" class="form-control"
+            formControlName="address">
+            <span class="errors" *ngIf="!updateForm.get('address').valid && 
+               updateForm.get('address').touched">Enter valid address</span>
+        </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" class="form-control"
+            formControlName="location">
+            <span class="errors" *ngIf="!updateForm.get('location').valid && 
+               updateForm.get('location').touched">Enter valid location</span>
+        </div>
+        <div>
+        <button class="btn btn-success" [disabled]="!updateForm.valid">Update</button>
+        </div>
+        </form>    
+        </div>
+     </div>
+</div>
