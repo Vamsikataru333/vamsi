@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "name": "suresh",
+      "address": "chennai",
+      "location": "hydrabad"
+    },
+    {
+      "id": 102,
+      "name": "vamsi",
+      "address": "kurnool",
+      "location": "kolkata"
+    },
+    {
+      "id": 103,
+      "name": "satish",
+      "address": "chennai",
+      "location": "hydrabad"
+    },
+    {
+      "id": 104,
+      "name": "harsha",
+      "address": "chennai",
+      "location": "banglore"
+    },
+    {
+      "id": "105",
+      "name": "bharat",
+      "address": "nellore",
+      "location": "cochin"
+    },
+    {
+      "id": "106",
+      "name": "pavan",
+      "address": "anantapur",
+      "location": "chennai"
+    },
+    {
+      "id": "107",
+      "name": "dinesh",
+      "address": "ambapuram",
+      "location": "krishnankoil"
+    }
+  ]
+}
