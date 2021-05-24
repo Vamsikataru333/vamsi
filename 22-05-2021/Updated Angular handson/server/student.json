@@ -1,0 +1,30 @@
+{
+    "students":[
+        {
+            "id":20,
+            "name": "lakshminath",
+            "gender":"male",
+            "address":"kurnool,Andhrapradesh",
+            "company":"wipro",
+            "location":"banglore"
+        },
+        {
+            "id":21,
+            "name": "kishore",
+            "gender":"male",
+            "address":"machilipatnam,Andhrapradesh",
+            "company":"infosis",
+            "location":"chennai"
+
+        },
+        {
+            "id":21,
+            "name": "rohit",
+            "gender":"male",
+            "address":"anantapur,Andhrapradesh",
+            "company":"tcs",
+            "location":"Hydrabad"
+
+        }
+    ]
+}
